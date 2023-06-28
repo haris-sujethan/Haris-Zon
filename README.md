@@ -4,7 +4,7 @@ Haris-zon is a responsive full-stack Amazon clone, designed and developed to pro
 
 ## Video Demo
 
-[![Haris-Zon](https://img.youtube.com/vi/7K_ZSTCoEhg/0.jpg)](https://www.youtube.com/watch?v=7K_ZSTCoEhg))
+[![Haris-Zon](https://img.youtube.com/vi/7K_ZSTCoEhg/0.jpg)](https://www.youtube.com/watch?v=7K_ZSTCoEhg)
 
 ## Features
 
