@@ -1,17 +1,37 @@
-# Haris-Zon
+# Haris-Zon - Amazon Clone
 
-Haris-zon is a responsive full-stack Amazon clone, designed and developed to provide users with a familiar and enjoyable online shopping experience. This project incorporates various features and technologies to deliver a user-friendly interface, secure authentication, convenient payment methods, and comprehensive order history functionality.
+Haris-Zon is an e-commerce platform featuring a user-friendly home page, checkout page, Firebase Authentication, Stripe payment processing, and a detailed Order History page.
 
-## Video Demo
+## Dependencies:
+ - npm i -g firebase-tools
+ - npm i @stripe/react-stripe-js
+ - npm i @stripe/stripe-js
 
-[![Haris-Zon](https://img.youtube.com/vi/7K_ZSTCoEhg/0.jpg)](https://www.youtube.com/watch?v=7K_ZSTCoEhg)
+Utilizing Stripe necessitates an account. In your Stripe account, navigate to the developers' page, where you'll find your keys under the "API Keys" section. Paste these keys within the firebase.js file.
 
-## Features
+Stripe provides two keys: a publishable key for the front end (which doesn't need to be hidden) and a secret key for the backend (which needs to be kept confidential).
 
-- **Homepage**: The homepage of Haris-zon is thoughtfully designed to showcase a wide range of products, providing users with an appealing visual representation of the available options. 
+Firebase Connection:
+After setting up your firebase project, inside your settings, extract the configuration details.
 
-- **Secure Authentication**: Haris-zon integrates Firebase Authentication to offer a secure login and signup process. 
+<IMAGE OF THE CONFIGURATION>
 
-- **Payment Processing**: To enable secure and convenient payment methods, Haris-zon incorporates Stripe payment processing. Users can confidently make purchases using their preferred payment options, knowing that their financial information is handled securely.
+## Home Page
+The home page functions as a product catalog, displaying an inventory of available items, each uniquely identified by an ID. Key details such as title, price, customer rating, and an associated image. Each product contains an "add to cart" button which when pressed dynamicaly updates the total number of items in the cart.
 
-- **Order History**: Haris-zon implements a comprehensive order history page using the Firestore database. This allows users to view their previous orders, including details such as purchased items, quantities, and total costs, and time of order. 
+<VIDEO>
+
+## Checkout Page
+Upon transitioning to the Checkout page, users encounter a concise summary of their cart items. Here, an efficient "remove from basket" button facilitates real-time adjustments to the total cart price.
+
+<VIDEO>
+
+## Payment Processing
+The payment page plays a central role in our platform, offering users a comprehensive overview of their information and cart contents before proceeding with payment. Integration with Stripe payment processing ensures secure and convenient transactions. 
+
+<VIDEO>
+
+## Order History
+For users interested in tracking their shopping history, our platform incorporates a detailed Order History page powered by the Firestore database. This functionality empowers users to review past orders, displaying specific information such as purchased items, quantities, total costs, and timestamps.
+
+<VIDEO>
