@@ -7,14 +7,14 @@ Haris-Zon is an e-commerce platform featuring a user-friendly home page, checkou
  - npm i @stripe/react-stripe-js
  - npm i @stripe/stripe-js
 
-Utilizing Stripe necessitates an account. In your Stripe account, navigate to the developers' page, where you'll find your keys under the "API Keys" section. Paste these keys within the firebase.js file.
+Utilizing Stripe necessitates an account. In your Stripe account, navigate to the developers' page, where you'll find your keys under the "API Keys" section.
 
 Stripe provides two keys: a publishable key for the front end (which doesn't need to be hidden) and a secret key for the backend (which needs to be kept confidential).
 
 Firebase Connection:
-After setting up your firebase project, inside your settings, extract the configuration details.
+After setting up your firebase project, inside your settings, extract the configuration details, paste within firebase.js
 
-IMAGE OF THE CONFIGURATION
+ - ** Voices in the videos below are not mine (AI Generated)
 
 ## Home Page
 The home page functions as a product catalog, displaying an inventory of available items, each uniquely identified by an ID. Key details such as title, price, customer rating, and an associated image. Each product contains an "add to cart" button which when pressed dynamicaly updates the total number of items in the cart.
