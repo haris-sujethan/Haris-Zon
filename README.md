@@ -31,7 +31,7 @@ https://github.com/haris-sujethan/Haris-Zon/assets/96924701/2f607227-1cca-43c2-8
 
 Utilizing Stripe necessitates an account. In your Stripe account, navigate to the developers' page, where you'll find your keys under the "API Keys" section.
 
-Stripe provides two keys: a publishable key for the front end (which doesn't need to be hidden) and a secret key for the backend (which needs to be kept confidential).
+Stripe provides two keys: a **publishable key** for the front end (which doesn't need to be hidden) and a **secret key** for the backend (which needs to be kept confidential).
 
-Firebase Connection:
+**Firebase Connection:**
 After setting up your firebase project, inside your settings, extract the configuration details, paste within firebase.js
