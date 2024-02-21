@@ -2,6 +2,8 @@
 
 Haris-Zon is an e-commerce platform featuring a user-friendly home page, checkout page, Firebase Authentication, Stripe payment processing, and a detailed Order History page.
 
+ - ** Voices in the videos below are not mine (AI Generated) **
+
 ## Dependencies:
  - npm i -g firebase-tools
  - npm i @stripe/react-stripe-js
@@ -13,8 +15,6 @@ Stripe provides two keys: a publishable key for the front end (which doesn't nee
 
 Firebase Connection:
 After setting up your firebase project, inside your settings, extract the configuration details, paste within firebase.js
-
- - ** Voices in the videos below are not mine (AI Generated)
 
 ## Home Page
 The home page functions as a product catalog, displaying an inventory of available items, each uniquely identified by an ID. Key details such as title, price, customer rating, and an associated image. Each product contains an "add to cart" button which when pressed dynamicaly updates the total number of items in the cart.
