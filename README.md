@@ -2,7 +2,7 @@
 
 Haris-Zon is an e-commerce platform featuring a user-friendly home page, checkout page, Firebase Authentication, Stripe payment processing, and a detailed Order History page.
 
- - **The Voice in the videos below are not mine (AI Generated)**
+ - ***The Voice in the videos below are not mine (AI Generated)***
 
 ## Dependencies:
  - npm i -g firebase-tools
